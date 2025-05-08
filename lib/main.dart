@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:practising_folder/my_home_page/category_card/category_ui.dart';
-// import 'package:practising_folder/my_home_page/gantt_chart/gantt_chart_ui.dart';
-// import 'package:practising_folder/my_home_page/support_ticket/support_ticket_ui.dart';
 import 'package:practising_folder/my_home_page/tabs/tabs_ui.dart';
 
 void main() {
