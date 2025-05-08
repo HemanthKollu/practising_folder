@@ -35,9 +35,7 @@ class _CardUiState extends State<CardUi> {
                       TextField(
                         controller: _myController,
                         onChanged: ((text) {
-                          // setState(() {
-                          //   _enterText = text;
-                          // });
+                          
                         }),
                         decoration: InputDecoration(
                           border: OutlineInputBorder(borderRadius: BorderRadius.circular(10), borderSide: BorderSide(color: Colors.black, width: 2)),

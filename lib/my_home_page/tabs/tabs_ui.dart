@@ -9,7 +9,6 @@ import 'package:practising_folder/my_home_page/snackbar/snackbar_ui.dart';
 import 'package:practising_folder/my_home_page/tabs/tabs_service.dart';
 import 'package:practising_folder/my_home_page/textField_dropdown/textField_dp_ui.dart';
 import 'package:practising_folder/my_home_page/time_picker/time_picker_ui.dart';
-// import 'package:practising_folder/my_home_page/styled_textfield/styled_textfield_ui.dart';
 import 'tabs_model.dart';
 
 class TabsPage extends StatefulWidget {

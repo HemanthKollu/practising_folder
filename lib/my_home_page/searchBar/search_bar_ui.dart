@@ -51,7 +51,6 @@ class _SearchBarUiState extends State<SearchBarUi> {
               TextField(
                 controller: _searchController,
                 decoration: InputDecoration(
-                  // labelText: 'Search',
                   border: OutlineInputBorder(),
                   prefixIcon: Icon(Icons.search),
                   hintText: 'Search...',
