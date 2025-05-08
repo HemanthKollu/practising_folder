@@ -38,6 +38,7 @@ dependencies:
   gantt_chart: ^0.3.0
   device_info_plus: ^9.0.3
   flutter_keyboard_visibility: ^6.0.0
+  http: ^1.4.0
 
 dev_dependencies:
   flutter_test:

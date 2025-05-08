@@ -115,8 +115,7 @@ class _CategoryUiState extends State<CategoryUi> {
                       decoration: BoxDecoration(
                         color: bgPrimaryColor,
                         borderRadius: BorderRadius.circular(20),
-                        boxShadow: [BoxShadow(
-                          color: Color.fromARGB(51,0,0,0), offset: Offset(0, 4), blurRadius: 2)],
+                        boxShadow: [BoxShadow(color: Color.fromARGB(51, 0, 0, 0), offset: Offset(0, 4), blurRadius: 2)],
                       ),
                       child: ClipRRect(
                         borderRadius: BorderRadius.all(Radius.circular(20)),
@@ -142,8 +141,15 @@ class _CategoryUiState extends State<CategoryUi> {
                                       ),
                                       SizedBox(width: 10),
                                       Padding(
-                                        padding: const EdgeInsets.only(right: 20),
-                                        child: Text(_categoryItems[index].id, textAlign: TextAlign.left, style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+                                        padding: const EdgeInsets.only(right: 15),
+                                        child:
+                                            _categoryItems[index].id != null && _categoryItems[index].id!.isNotEmpty
+                                                ? Text(
+                                                  _categoryItems[index].id!.length > 5
+                                                  ? '${_categoryItems[index].id!.substring(0, 5)}...'
+                                                  : _categoryItems[index].id!,
+                                                  textAlign: TextAlign.left, style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold))
+                                                : Container(),
                                       ),
                                       Expanded(
                                         child: Container(

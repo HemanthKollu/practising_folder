@@ -1,6 +1,6 @@
 
 class CategoryModel {
-  final String id;
+  final String? id;
   final String schoolName;
   final String descriptionJson;
   final String date;
@@ -13,7 +13,7 @@ class CategoryModel {
   final String? imageUrl;
 
   CategoryModel({
-    required this.id,
+    this.id,
     required this.schoolName,
     required this.descriptionJson,
     required this.date,

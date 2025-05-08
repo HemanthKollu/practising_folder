@@ -6,7 +6,7 @@ class CategoryService {
   List<CategoryModel> getCategoryData() {
     return [
       CategoryModel(
-        id: 'TOK04A',
+        id: "DPD010",
         schoolName: "Vel's Vidhyalaya Senior Secondary School",
         iconColor: "red",
         descriptionJson: jsonEncode([
@@ -25,7 +25,7 @@ class CategoryService {
         imageUrl: "https://avatar.iran.liara.run/public/boy"
       ),
       CategoryModel(
-        id: 'TOK04B',
+        id: "DPD010",
         schoolName: "ABCD School",
         iconColor: "pink",
         descriptionJson: jsonEncode([
@@ -44,7 +44,7 @@ class CategoryService {
         imageUrl: "https://avatar.iran.liara.run/public/boy"
       ),
       CategoryModel(
-        id: 'TOK04C',
+        // id: 'TOK04C',
         schoolName: "A B C D F G H I J K L M N O P Q R S T U V W X Y Z School",
         iconColor: "purple",
         descriptionJson: jsonEncode([
@@ -62,7 +62,7 @@ class CategoryService {
         subCategory: "Tools Usage Report Data Issue"
       ),
       CategoryModel(
-        id: 'TOK04D',
+        // id: 'TOK04D',
         schoolName: "Vel's Vidhyalaya Senior Secondary School",
         iconColor: "green",
         descriptionJson: jsonEncode([
@@ -82,7 +82,7 @@ class CategoryService {
 
       ),
       CategoryModel(
-        id: 'TOK04B',
+        id: "DPD010",
         schoolName: "ABCD School",
         iconColor: "pink",
         descriptionJson: jsonEncode([
@@ -101,7 +101,7 @@ class CategoryService {
 
       ),
       CategoryModel(
-        id: 'TOK04B',
+        // id: 'TOK04B',
         schoolName: "ABCD School",
         iconColor: "pink",
         descriptionJson: jsonEncode([
@@ -121,7 +121,7 @@ class CategoryService {
 
       ),
       CategoryModel(
-        id: 'TOK04B',
+        id: "DPD010",
         schoolName: "ABCD School",
         iconColor: "pink",
         descriptionJson: jsonEncode([
